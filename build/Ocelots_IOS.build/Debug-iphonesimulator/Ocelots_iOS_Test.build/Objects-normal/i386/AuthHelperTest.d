@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/ocelots_iOS_Test/AuthHelperTest.m \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHUnit.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestCase.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestMacros.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/NSException+GHTestFailureExceptions.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/NSValue+GHValueFormatter.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTest.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHAsyncTestCase.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestSuite.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestGroup.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestRunner.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTesting.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestOperation.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTest+JUnitXML.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestGroup+JUnitXML.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHTestUtils.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHUnitIOSAppDelegate.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/lib/GHUnitIOS/GHUnitIOS.framework/Headers/GHViewTestCase.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/OCMock/iOS/OCMock/OCMock.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/OCMock/iOS/OCMock/OCMockObject.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/OCMock/iOS/OCMock/OCMockRecorder.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/OCMock/iOS/OCMock/OCMConstraint.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/OCMock/iOS/OCMock/OCMArg.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/../../../materials/iOS/OCMock/iOS/OCMock/NSNotificationCenter+OCMAdditions.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/AuthHelper.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/../../AwayDay2012_iOS/AwayDay2012/ASIHttp/ASIFormDataRequest.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/../../AwayDay2012_iOS/AwayDay2012/ASIHttp/ASIHTTPRequest.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/../../AwayDay2012_iOS/AwayDay2012/ASIHttp/ASIHTTPRequestConfig.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/../../AwayDay2012_iOS/AwayDay2012/ASIHttp/ASIHTTPRequestDelegate.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/../../AwayDay2012_iOS/AwayDay2012/ASIHttp/ASIProgressDelegate.h \
+  /Users/twer/Documents/workspace/xcode_workspace/Ocelots_IOS/Ocelots_IOS/../../AwayDay2012_iOS/AwayDay2012/ASIHttp/ASICacheDelegate.h
