@@ -46,7 +46,6 @@
 		492C868D1677547C00F28C36 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C868C1677547C00F28C36 /* Team.m */; };
 		492C868E1677547C00F28C36 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C868C1677547C00F28C36 /* Team.m */; };
 		492C8692167759E500F28C36 /* TeamTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C8691167759E500F28C36 /* TeamTest.m */; };
-		492C869316775D9000F28C36 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4902630B166AE8A7009E4E60 /* GHUnitIOS.framework */; };
 		492C869416775EA100F28C36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D188001667893100E0566C /* MobileCoreServices.framework */; };
 		492C869516775EC100F28C36 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E69A54166242C000F8003E /* SystemConfiguration.framework */; };
 		492C869616775ECA00F28C36 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E69A57166242CA00F8003E /* Security.framework */; };
@@ -84,11 +83,12 @@
 		49ACEDA5165E1096004E55D4 /* CheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ACEDA4165E1096004E55D4 /* CheckButton.m */; };
 		49ACEDA7165E1661004E55D4 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 49ACEDA6165E1661004E55D4 /* checked.png */; };
 		49ACEDA9165E1673004E55D4 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 49ACEDA8165E1673004E55D4 /* unchecked.png */; };
+		49C08709167DB6F0000652C9 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C08708167DB6F0000652C9 /* GHUnitIOS.framework */; };
+		49C0870B167DB6FF000652C9 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C0870A167DB6FF000652C9 /* libOCMock.a */; };
 		49C16DEC161C629A00EADFB8 /* suncorp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49C16DEB161C629A00EADFB8 /* suncorp.jpeg */; };
 		49C69C841633FB50002FD0B9 /* TeamMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C69C821633FB50002FD0B9 /* TeamMembersViewController.m */; };
 		49C69C851633FB50002FD0B9 /* TeamMembersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C69C831633FB50002FD0B9 /* TeamMembersViewController.xib */; };
 		49C8FC28162C37810009FE1A /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8FC27162C37810009FE1A /* HypnosisView.m */; };
-		49CFF2F51672F47400BE11FA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CFF2EC1672F3E400BE11FA /* libOCMock.a */; };
 		49CFF2F71672F5CC00BE11FA /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D187E0166767F600E0566C /* ASIAuthenticationDialog.m */; };
 		49CFF2F81672F5D000BE11FA /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D187E3166767F600E0566C /* ASIDataCompressor.m */; };
 		49CFF2F91672F5D300BE11FA /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D187E5166767F600E0566C /* ASIDataDecompressor.m */; };
@@ -213,6 +213,8 @@
 		49ACEDA4165E1096004E55D4 /* CheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckButton.m; sourceTree = "<group>"; };
 		49ACEDA6165E1661004E55D4 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
 		49ACEDA8165E1673004E55D4 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		49C08708167DB6F0000652C9 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = GHUnitIOS/GHUnitIOS.framework; sourceTree = "<group>"; };
+		49C0870A167DB6FF000652C9 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/iOS/libOCMock.a; sourceTree = "<group>"; };
 		49C16DEB161C629A00EADFB8 /* suncorp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suncorp.jpeg; sourceTree = "<group>"; };
 		49C69C811633FB4F002FD0B9 /* TeamMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMembersViewController.h; sourceTree = "<group>"; };
 		49C69C821633FB50002FD0B9 /* TeamMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMembersViewController.m; sourceTree = "<group>"; };
@@ -271,13 +273,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C0870B167DB6FF000652C9 /* libOCMock.a in Frameworks */,
+				49C08709167DB6F0000652C9 /* GHUnitIOS.framework in Frameworks */,
 				492C869616775ECA00F28C36 /* Security.framework in Frameworks */,
 				492C869516775EC100F28C36 /* SystemConfiguration.framework in Frameworks */,
 				49CFF3001672F6D500BE11FA /* CFNetwork.framework in Frameworks */,
 				492C869416775EA100F28C36 /* MobileCoreServices.framework in Frameworks */,
-				492C869316775D9000F28C36 /* GHUnitIOS.framework in Frameworks */,
 				49CFF3011672F6DB00BE11FA /* libz.dylib in Frameworks */,
-				49CFF2F51672F47400BE11FA /* libOCMock.a in Frameworks */,
 				4902630D166AE900009E4E60 /* QuartzCore.framework in Frameworks */,
 				490262F9166AE855009E4E60 /* UIKit.framework in Frameworks */,
 				490262FA166AE855009E4E60 /* Foundation.framework in Frameworks */,
@@ -422,6 +424,8 @@
 		497B9F8615FCC47000194EA6 = {
 			isa = PBXGroup;
 			children = (
+				49C0870A167DB6FF000652C9 /* libOCMock.a */,
+				49C08708167DB6F0000652C9 /* GHUnitIOS.framework */,
 				49873F9F16744A3C0062891A /* Default@2x.png */,
 				49873F9D16744A250062891A /* Default.png */,
 				49CFF2EB1672F3C400BE11FA /* OCMockLib */,
@@ -847,16 +851,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../materials/iOS/lib/GHUnitIOS\"",
-					"\"$(SRCROOT)/../../../materials/iOS/OCMock/iOS\"",
+					"\"$(SRCROOT)/GHUnitIOS\"",
+					"\"$(SRCROOT)/OCMock/iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ocelots_iOS_Test/Ocelots_iOS_Test-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../materials/iOS/OCMock/iOS\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OCMock/iOS\"";
 				INFOPLIST_FILE = "Ocelots_iOS_Test/Ocelots_iOS_Test-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../materials/iOS/OCMock/iOS\"",
+					"\"$(SRCROOT)/OCMock/iOS\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -873,16 +878,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../materials/iOS/lib/GHUnitIOS\"",
-					"\"$(SRCROOT)/../../../materials/iOS/OCMock/iOS\"",
+					"\"$(SRCROOT)/GHUnitIOS\"",
+					"\"$(SRCROOT)/OCMock/iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ocelots_iOS_Test/Ocelots_iOS_Test-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../materials/iOS/OCMock/iOS\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OCMock/iOS\"";
 				INFOPLIST_FILE = "Ocelots_iOS_Test/Ocelots_iOS_Test-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../materials/iOS/OCMock/iOS\"",
+					"\"$(SRCROOT)/OCMock/iOS\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
